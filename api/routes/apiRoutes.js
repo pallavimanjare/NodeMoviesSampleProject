@@ -14,6 +14,8 @@ router.get('/', function(req, res) {
 });
 
 router.get('/getAllMovies', movieController.getAllMovies);
+router.get('/getMovieById/:id', movieController.getMovieById);
+
 
 
 
