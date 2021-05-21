@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+     "test": "mocha"
   },
   "keywords": [],
   "author": "",
@@ -24,5 +25,8 @@
     "sequelize": "^5.2.0",
     "underscore": "^1.13.1",
     "validator": "^12.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.4.0"
   }
 }
